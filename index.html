@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our website. Learn more about us, our rooms, gallery, blog, and contact us.">
+    <title>Home</title>
+    <style>
+        /* Resetting some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and layout styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(244, 244, 244);
+            color: rgb(51, 51, 51);
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: rgb(51, 51, 51);
+            color: rgb(255, 255, 255);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin-left: 120px; /* Adjust to make space for the logo */
+        }
+
+        header .logo {
+            position: absolute;
+            height: 100px; /* Adjust logo height */
+            left: 20px;
+            top: 10px;
+            width: auto; /* Maintain aspect ratio */
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: rgb(68, 68, 68);
+            padding: 10px 0;
+        }
+
+        nav .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(221, 221, 221);
+            color: rgb(51, 51, 51);
+        }
+
+        /* Main content styling */
+        main .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .content h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .content p {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+       
+		 /* Main content styling */
+        main .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .contact-section {
+            background-color:rgb(0,255,255);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-section h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            display: grid;
+            gap: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid:rgb(204,204,204);
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color:rgb(51,51,51);
+            color:rgb(255,255,255);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color:rgb(255,69,0);
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="ASA.png" alt="Company Logo" class="logo"> <!-- Logo Added Here -->
+            <h1>A.S.A HOTAL</h1>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="roompage.html">Room</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+	 
+
+	<!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="hero">
+                <img src="anu.jfif" alt="Hero Image" class="hero-img">
+            </section>
+
+            <section class="content">
+			
+                <h2>Welcome to Our Hotel</h2>
+                <p>Explore our rooms, gallery, and blog. Learn more about what we offer and how we can help you!</p>
+				
+            </section>
+        </div>
+    </main>
+	 <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="contact-section">
+                <h2>BOOK A ROOM ONLINE</h2>
+               
+                
+                <form action="#" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+					<h3>Arrival</h3>
+                    <input type="digits" name="dd-mm-yy" placeholder="dd-mm-yy" required>
+					<h3>Departure</h3>
+                    <input type="digits" name="dd-mm-yy" placeholder="dd-mm-yy" required>
+                  
+                    <button type="submit">Book Now</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        // JavaScript for dynamic page loading or other interactive functionality can go here.
+        function loadPage(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+
+</html>
