@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about our company, our mission, and our values.">
+    <title>About Us</title>
+    <style>
+        /* Resetting some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and layout styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin-left: 120px; /* Adjust to make space for the logo */
+        }
+
+        header .logo {
+            position: absolute;
+            height: 100px; /* Adjust logo height */
+            left: 20px;
+            top: 10px;
+            width: auto; /* Maintain aspect ratio */
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color:rgb(68,68,68);
+            padding: 10px 0;
+        }
+
+        nav .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color:rgb(255,255,255);
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color:rgb(221,221,221);
+            color:rgb(51,51,51);
+        }
+
+        /* Main content styling */
+        main .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        /* Flexbox container for card */
+        .about-section {
+            display: flex;
+            align-items: center;
+            background-color:rgb(255,255,255);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Left side content styling */
+        .about-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .about-content h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .about-content p {
+            font-size: 18px;
+            margin-bottom: 10px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        /* Right side image styling */
+        .about-image img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color:rgb(51,51,51);
+            color:rgb(255,255,255);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="ASA.png" alt="Company Logo" class="logo"> <!-- Logo Added Here -->
+            <h1>ABOUT US</h1>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="roompage.html">Room</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="about-section">
+                <!-- Left Side Content -->
+                <div class="about-content">
+                    <h2> >.< ABOUT >.<</h2>
+                    <p>
+                        Welcome to our Hotal! We are passionate about providing exceptional services to our customers. 
+                        Our mission is to create a space where excellence meets hospitality, ensuring every experience with us is memorable.
+                    </p>
+                    <p>
+                        Our journey began with a simple idea: to make quality and comfort accessible to everyone. Over the years, 
+                        we have grown into a dedicated team of professionals who strive to uphold our core values of trust, innovation, and community.
+                    </p>
+                    <p>
+                        Whether you're here to explore our offerings or learn more about our story, we are delighted to have you with us.
+                        Thank you for choosing us!
+                    </p>
+                </div>
+                <!-- Right Side Image -->
+                <div class="about-image">
+                    <img src="swim.jpg" height="100px"width="100px" alt="About Us Image"> <!-- Add your image here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+   
+	
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <style>
+        /* Resetting some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and layout styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(244, 244, 244);
+            color: rgb(51, 51, 51);
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: rgb(51, 51, 51);
+            color: rgb(255, 255, 255);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin-left: 120px; /* Adjust to make space for the logo */
+        }
+
+        header .logo {
+            position: absolute;
+            height: 100px; /* Adjust logo height */
+            left: 20px;
+            top: 10px;
+            width: auto; /* Maintain aspect ratio */
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: rgb(68, 68, 68);
+            padding: 10px 0;
+        }
+
+        nav .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(221, 221, 221);
+            color: rgb(51, 51, 51);
+        }
+		        /* Card Grid Styling */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid :rgb(221,221,221);
+            border-radius: 8px;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 16px;
+            line-height: 1.5;
+            color:rgb(102,102,102);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .card {
+                width: 48%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="ASA.png" alt="Company Logo" class="logo"> <!-- Logo Added Here -->
+            <h1>BLOG</h1>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="roompage.html">Room</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+	<center><h1>=_= BLOG =_=</h1>
+	<p>Lorem Ipsum availavle, but the majority have suffered</p></center>
+	<!-- Card Grid -->
+    <div class="card-container">
+        <div class="card">
+            <img src="mar.jpg" alt="Room 1"> <!-- Image for Card 1 -->
+            <h2>Bed Room</h2>
+			<h4>The standard chunk</h4>
+            <p>If you are going to use a passage of Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorslf you are</p>
+        </div>
+        <div class="card">
+            <img src="bed2.jpg" alt="Room 2"> <!-- Image for Card 2 -->
+            <h2>Bed Room</h2>
+			<h4>The standard chunk</h4>
+            <p>If you are going to use a passage of Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorslf you are</p>
+        </div>
+        <div class="card">
+            <img src="bed13.jfif" alt="Room 3"> <!-- Image for Card 3 -->
+            <h2>Bed Room</h2>
+			<h4>The standard chunk</h4>
+            <p>If you are going to use a passage of Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generatorslf you are</p>
+        </div>
+
+</body>
+
+</html>

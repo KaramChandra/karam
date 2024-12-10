@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our website. Learn more about us, our rooms, gallery, blog, and contact us.">
+    <title>Gallery</title>
+    <style>
+        /* Resetting some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and layout styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(244,244,244);
+            color:rgb(51,51,51);
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color:rgb(51,51,51);
+            color:rgb(255,255,255);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin-left: 120px; /* Adjust to make space for the logo */
+        }
+
+        header .logo {
+            position: absolute;
+            height: 100px; /* Adjust logo height */
+            left: 20px;
+            top: 10px;
+            width: auto; /* Maintain aspect ratio */
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color:rgb(68,68,68);
+            padding: 10px 0;
+        }
+
+        nav .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color:rgb(255,255,255);
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color:rgb(221,221,221);
+            color:rgb(51,51,51);
+        }
+
+        /* Gallery Section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        /* Styling for each image card */
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover Effect */
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color:rgb(51,51,51);
+            color:rgb(255,255,255);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Design for smaller screens */
+        @media screen and (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="ASA.png" alt="Company Logo" class="logo"> <!-- Logo Added Here -->
+            <h1>GALLERY</h1>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="roompage.html">Room</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+	<center><h1>^_^ GALLERY ^_^</h1><center>
+
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <img src="bed1.jpg" alt="Gallery Image 1">
+        <img src="bed2.jpg" alt="Gallery Image 2">
+        <img src="bed3.webp" alt="Gallery Image 3">
+        <img src="bed8.jpg" alt="Gallery Image 4">
+        <img src="bed5.jpg" alt="Gallery Image 5">
+        <img src="bed6.jpg" alt="Gallery Image 6">
+        <img src="bed7.jfif" alt="Gallery Image 7">
+        <img src="bed9.jpg" alt="Gallery Image 8">
+        <img src="bed10.jpg" alt="Gallery Image 9">
+        <img src="bed11.jfif" alt="Gallery Image 10">
+        <img src="bed12.jfif" alt="Gallery Image 11">
+        <img src="bed13.jfif" alt="Gallery Image 12">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for any dynamic page loading or additional functionality
+    </script>
+	
+</body>
+
+</html>
